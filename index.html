@@ -1,86 +1,442 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="referrer" content="no-referrer" />
-		<meta name="viewport" content="width=device-width,initial-scale=1" />
-		<meta name="keywords" content="nettleweb,free,online,game,games,html,html5,flash,dos,n64,nes,snes,classic,emulator,chat,store,chatgpt" />
-		<meta name="description" content="Play free online games, watch exclusive videos, and interact with a community that values your privacy. Explore our collection of HTML5, Flash, and classic games, engage in live chat, and enjoy a social experience without the snooping." />
-		<meta name="theme-color" content="#004080" />
-		<meta name="application-name" content="NettleWeb" />
-		<meta name="mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<base href="/" target="_blank" />
-		<link rel="icon" type="image/x-icon" href="favicon.ico" />
-		<link rel="manifest" type="application/json" href="manifest.json" />
-		<link rel="stylesheet" type="text/css" href="index.css" />
-		<link rel="apple-touch-icon" type="image/svg+xml" href="res/logo3.svg" />
-		<link rel="canonical" href="https://nettleweb.com/" />
-		<link rel="privacy-policy" type="text/html" href="privacy.html" />
-		<link rel="terms-of-service" type="text/html" href="terms.html" />
-		<title>NettleWeb</title>
-	</head>
-	<body>
-		<div id="error">Error Message</div>
-		<div id="overlay"></div>
-		<noscript><div>Error: This page could not function unless JavaScript is supported and enabled in your browser.</div></noscript>
-		<div id="navigation-bar">
-			<div id="logo"></div>
-			<div id="status"></div>
-			<div id="version"></div>
-			<input id="side-menu" type="checkbox"/>
-			<label for="side-menu" id="hamb">Menu</label>
-			<div id="nav-bar">
-				<button id="home-btn" type="button" data-current="true">Home</button>
-				<button id="game-btn" type="button">Games</button>
-				<button id="strm-btn" type="button">Videos</button>
-				<button id="apps-btn" type="button">Apps</button>
-				<button id="comm-btn" type="button">Shop</button>
-				<button id="chat-btn" type="button">Chat</button>
-				<button id="unbl-btn" type="button">FAQs</button>
-			</div>
-			<button id="accn-btn" type="button" title="Login"></button>
-			<button id="nmsg-btn" type="button" title="Notifications"></button>
-		</div>
-		<div id="loading">Loading...</div>
-		<div id="content">
-			<div id="content-page">
-				<a href="https://nettleweb.com/" target="_blank" rel="noopener">Main Website</a>
-			</div>
-			<span id="bottom-widget">
-				<ins class="adsbygoogle" data-ad-client="ca-pub-7505521340110301" data-ad-slot="5345722600" data-ad-format="auto" data-full-width-responsive="true"></ins>
-			</span>
-			<span id="footer">
-				<div>
-					<div>&copy;2024 nettleweb.com; All rights reserved.</div>
-					<div>We are working hard to improve your user experience.</div>
-				</div>
-				<div>
-					<a href="https://github.com/nettleweb" target="_blank" rel="noopener"><img src="res/github.svg" width="36" height="36" loading="lazy" decoding="async" draggable="false" alt="GitHub" title="GitHub" /></a>
-					<a href="https://discord.gg/djdH3kVd4v" target="_blank" rel="noopener"><img src="res/discord.svg" width="36" height="36" loading="lazy" decoding="async" draggable="false" alt="Discord" title="Discord" /></a>
-					<a href="https://www.youtube.com/@nettleweb" target="_blank" rel="noopener"><img src="res/youtube.svg" width="36" height="36" loading="lazy" decoding="async" draggable="false" alt="YouTube" title="YouTube" /></a>
-					<a href="https://www.facebook.com/nettleweb" target="_blank" rel="noopener"><img src="res/facebook.svg" width="36" height="36" loading="lazy" decoding="async" draggable="false" alt="Facebook" title="Facebook" /></a>
-					<a href="https://www.instagram.com/nettleweb" target="_blank" rel="noopener"><img src="res/instagram.svg" width="36" height="36" loading="lazy" decoding="async" draggable="false" alt="Instagram" title="Instagram" /></a>
-				</div>
-				<div>
-					<a href="https://docs.google.com/forms/d/e/1FAIpQLSfm3Fzhp1R4GCidei6l-FEA2yujuXuUBf_Sd50EJ5J7GN02oQ/viewform?embedded=true" target="_blank" rel="noopener">Feedback</a><br />
-					<a href="mailto:support@nettleweb.com" target="_blank" rel="noopener">Contact us</a><br />
-					<a href="https://github.com/nettleweb/nettleweb/issues/new" target="_blank" rel="noopener">Report a bug</a><br />
-					<a href="https://nettleweb.com/privacy.html" target="_blank" rel="noopener">Privacy Policy</a><br />
-					<a href="https://nettleweb.com/terms.html" target="_blank" rel="noopener">Terms of Service</a>
-				</div>
-			</span>
-		</div>
-		<div id="nwidget"></div>
-		<button id="install" type="button"><span>Install App</span></button>
-		<button id="settings" type="button" title="Settings"></button>
-		<button id="checkout" type="button" title="Checkout"></button>
-		<div id="frame-view">
-			<div id="frame"></div>
-			<button id="frame-close" type="button" title="Close"></button>
-			<button id="frame-expand" type="button" title="Enter fullscreen"></button>
-		</div>
-		<script type="text/javascript" src="main.js" blocking="render"></script>
-	</body>
-</html>
+<html lang="en"><head>
+        <title>Blocked Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noindex">
+        <style type="text/css">
+
+            .blocked-page select:focus,
+            .blocked-page a:focus,
+            .blocked-page button:focus,
+            .blocked-page textarea:focus,
+            .blocked-page input:focus {
+                outline: 2px solid #0073E6;
+                outline-offset: -2px;
+            }
+            body:not(.user-is-tabbing) a:focus,
+            body:not(.user-is-tabbing) button:focus,
+            body:not(.user-is-tabbing) input:focus,
+            body:not(.user-is-tabbing) select:focus,
+            body:not(.user-is-tabbing) textarea:focus {
+                outline: none !important;
+            }
+            .blocked-page input.form-control:focus {
+                border: 0;
+                box-shadow: none;
+                border-bottom: 1px solid #66afe9;
+            }
+            .blocked-logo {
+                width: 120px !important;
+            }
+
+            .top-logo {
+                width: 100px;
+                height: 70px;
+                position: absolute;
+            }
+            .top-logo img {
+                width: 100px;
+                height: 70px;
+                object-fit: contain;
+            }
+
+            .school-logo {
+                height: auto;
+            }
+
+            .school-logo img {
+                max-height: 100px;
+            }
+
+        </style>
+        <!-- REL-2408 - Google Tag Manager -->
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-FPZXR27PE5&amp;cx=c&amp;gtm=457e5591h1za200&amp;tag_exp=101509156~103101750~103101752~103116026~103200004~103233424~103251618~103251620~103284320~103284322~103301114~103301116"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-31418916-2"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-31418916-2');
+        </script>
+
+        <script type="text/javascript" language="javascript" src="/js/vendor/jquery-1.11.0.min.js"></script>
+        <link rel="stylesheet" href="/site/css/grid.css">
+        <link rel="stylesheet" href="/css/colorbox.css">
+        <link rel="stylesheet" href="app/css/login-layouts.css">
+        <link rel="stylesheet" href="/site/css/fonts/metropolis/stylesheet.css">
+        <link rel="stylesheet" href="app/css/blocked.css">
+            <!-- Favicons -->
+        <link rel="apple-touch-icon" href="/site/assets/img/favicons/favicon-180x180.png" sizes="180x180">
+        <link rel="icon" href="/site/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+        <link rel="icon" href="/site/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+        <link rel="icon" href="/site/assets/img/favicons/favicon-16x16.ico">
+    </head>
+    <body>
+    <!--BEGIN BLOCKED TEMPLATE-->
+    <div class="blocked-page businessbg">
+        <!-- This overlay will appear when page is redirecting -->
+        <div id="overlay" class="text-center">
+            <img class="spinner" src="/app/images/redirecting-spinner.svg" alt="spinner">
+             <p class="text-center redirect-text">Redirecting</p>
+        </div>
+
+        
+        <!--GEO LOCATION BLOCKED-->
+        
+        <!-- ==========================================================================
+                Blocked kids full page - html starts
+        ========================================================================== -->
+        <!--IF CONTACT ADMIN TWL AND LOGIN ARE OFF-->
+        <div class="padding-wrapper">
+            <!--IF SHOW LOGIN OR TWL OR CONTACT ADMIN IS TRUE-->
+            <div class="newGrid_container shadow-container">
+                <div class="row">
+                                                    <div class="top-logo"> <img src="/schoollogos/1603996259_Crest.jpg" alt="School Logo"> </div>
+                                                <h1 class="text-center heading">Looks like this page isn't allowed</h1>
+                        <div class="schlblockMessage mt-0 text-center">This page has been blocked, idiot.</div>                        
+                </div>
+
+                <div class="row">
+                    <div class="col-md-7 text-center">
+                        <div class="lhs-img-container ">
+                            <img src="/app/images/blocking-animation.gif" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-5">
+                        <section class="rhs-container">
+                        <div id="blockDetails" class="block-details">
+                                <h2 class="details-heading">Blocking details</h2>
+                                <div class="regularBody"><span>URL: </span><span class="medium">stocks58.github.io</span></div>
+                                <div class="regularBody"><span>Reason: </span><span class="medium">Blocked by Safe Search</span></div>
+                                                                                        <a href="#" role="button" id="show-more" class="regularBody medium" style="display: inline-block;">Show more</a>
+                                                        <div class="more-details">
+                                                                        <div class="details"><span>Blocking details: </span><span>YOU NEED TO STOP PLAYING GAMES</span></div>
+                                                                                                    <div class="details"><span>Category: </span><span>Safe search</span></div>
+                                                                <div class="details"><span>User email: </span><span>ranlog30@ims.igmail.org</span></div>
+                                <div class="details" style="padding-bottom: 24px;">
+                                    <span>Policy: </span><span>Base/Default Policy</span>
+                                </div>
+                                <div class="details"><span>Date and time: </span><span>Tuesday, 05/13/25, 08:13AM EDT</span></div>
+                                <div class="details"><span>External IP: </span><span>207.75.53.6</span></div>
+                                <div class="details"><span>Filtering methods: </span><span>Extension</span></div>
+                            </div>
+                            <div class="clearfix"></div>
+
+                        </div>
+
+                    <!-- SHOW LESS link placed outside blockDetails div for accessibility re-ordering -->
+                                                <a href="#" id="show-less" aria-hidden="true" tabindex="-1" style="display:none;" class="regularBody medium">Show less</a>
+                    
+                                            <!--IF CONTACT ADMIN TWL AND LOGIN ARE OFF , NO ACTION AVAILABLE-->
+                                                            <!-- ==========================================================================
+                            Blocked Kids - Right Side ends
+                    ========================================================================== -->
+                    <div id="aria-kb-link" class="details" aria-label="Refer to KB article for explanation of blocking details"><span>Refer to <a target="_blank" aria-label="KB article explaining blocking details" href="https://support.securly.com/hc/en-us/articles/214616977-How-do-I-find-out-why-a-particular-site-was-blocked-">KB article</a> for explanation of blocking details<span></span></span></div>
+                    </section>
+                    </div>
+                </div> <!-- end row -->
+            </div> <!-- end newGridcontainer -->
+        </div> <!-- end padding wrapping -->
+
+
+            </div>
+    <script>
+        /* showTWL : Used for contact admin field validation purpose */
+        var showTWL =  0;
+
+        $(document).ready(function () {
+
+            formValidate();
+            var registeredDomains  = ["bv.igmail.org","ihs.igmail.org","ims.igmail.org","ishpemingschools.com","ishpemingschools.org"];
+            var otherText = "Other";
+            if(registeredDomains){
+                for (var i = 0; i < registeredDomains.length; i++) {
+                    registeredDomains[i] = registeredDomains[i].toLowerCase();
+                }
+            }
+            var EMAIL_REGEXP = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+            $('#show-more').on('click', function (e) {
+                e.preventDefault();
+                $('.details').show();
+                $('.more-details').slideDown();
+                $('#show-less').show();
+                $(this).hide();
+                $(this).attr('aria-expanded', 'true');
+            });
+
+            $('#show-less').on('click', function (e) {
+                e.preventDefault();
+                $('.more-details').slideUp();
+                $('.details').hide();
+                $('#show-more').show();
+                $('#show-more').css('display', 'inline-block');
+                $(this).hide();
+                $(this).attr('aria-expanded', 'false');
+            });
+            $("#reasonDropdownMenu li").click(function(){
+                $("#questionSelection").text($(this).text());
+                $("#questionSelection").val($(this).text());
+                updateReasonTextBox();
+                formValidate();
+                // Calling updateReasonTextBox function again for mac/ios related device
+                // as weird issue coming, need to find some concrete solution for it
+                // for now will keep this way
+                if(/(Mac|iPhone|iPod|iPad)/i.test(navigator.platform)){
+                    updateReasonTextBox();
+                }
+            });
+            /* REL-2199: Conact Admin Form Changes*/
+
+            $('.askForPermissionClk').click(function() {
+                if (($('.ask-btn').attr('aria-expanded')) == 'true') {
+                    $('.ask-btn').attr('aria-expanded', 'false');
+                } else {
+                    $('.ask-btn').attr('aria-expanded', 'true');
+                }
+                $("#permissionForm").slideToggle('fast', function() {
+                    $(".navigation-button").toggleClass("ss-navigateup ss-navigatedown");
+                });
+            });
+
+            // If 'other' option selected show textbox, else remove hide textbox'
+            function updateReasonTextBox() {
+                var questionSelectionValue = document.getElementById("questionSelection").value;
+                var otherReasonElement =  document.getElementById("otherReasonInfo");
+                if(questionSelectionValue == otherText){
+                    otherReasonElement.style.display= "block";
+                } else {
+                    otherReasonElement.value = "";
+                    otherReasonElement.style.display= "none";
+                }
+            }
+            
+            /** Contact Admin Form Validation
+             */
+            $('#teacherEmail').on('blur', function(){
+                var inputEmail = $('#teacherEmail').val();
+                var domain = inputEmail.substring(inputEmail.lastIndexOf("@") + 1);
+                if(EMAIL_REGEXP.test(inputEmail) && registeredDomains.indexOf(domain.toLowerCase()) == -1) {
+                    $("#domainError").show();
+                    $("#sendEmail").attr("disabled", true);
+                }
+            });
+
+            var otherReasonInfo = document.getElementById("otherReasonInfo");
+            otherReasonInfo && otherReasonInfo.addEventListener("input",function(){
+                formValidate();
+            });
+
+            var teacherEmail = document.getElementById("teacherEmail");
+            teacherEmail && teacherEmail.addEventListener("input",function(){
+                formValidate();
+            });
+
+            var lang = "en_US";
+            function startTimer(duration, display) {
+                var timer = duration, minutes, seconds;
+                var intervalId = setInterval(function () {
+                    minutes = parseInt(timer / 60, 10);
+                    seconds = parseInt(timer % 60, 10);
+
+                    minutes = minutes < 10 ? "0" + minutes : minutes;
+                    seconds = seconds < 10 ? "0" + seconds : seconds;
+
+                    if (lang == 'es_ES') {
+                        $(display).text(minutes + " minutos" + " " + seconds + " segundos");
+                    } else if (lang == 'fr_CA') {
+                        $(display).text(minutes + " minutes" + " " + seconds + " secondes");
+                    } else {
+                        $(display).text(minutes + " minutes" + " " + seconds + " seconds");
+                    }
+
+                    --timer;
+
+                    if (timer < 0) {
+                        clearInterval(intervalId);
+                        window.location.reload();
+                    }
+                }, 1000);
+            }
+            var timeRemaining = 0;
+            displayId = $('#banTime');
+            if (timeRemaining) {
+                startTimer(timeRemaining, displayId);
+            }
+
+
+            function formValidate(){
+                var disabled = false;
+
+                var questionSelection = $("#questionSelection");
+
+                if (questionSelection.length && questionSelection[0]) {
+
+                    // REASON SELECTION DROPDOWN VALIDATION
+                    var selectedReason = questionSelection[0].value;
+                    if (selectedReason != '') {
+                        if (selectedReason == otherText) {
+                            var otherReasonValue = otherReasonInfo.value;
+                            if (otherReasonValue.length <= 500) {
+                                disabled = false;
+                            } else {
+                                disabled = true;
+                            }
+                        } else {
+                            disabled = false;
+                        }
+                    }
+                }
+
+
+                if (showTWL) {
+                    // EMAIL VALIDATION
+                    $("#domainError").hide();
+                    if (teacherEmail) {
+                        var inputEmail = teacherEmail.value;
+                        if (EMAIL_REGEXP.test(inputEmail)) {
+                            disabled = false;
+                            var domain = inputEmail.substring(inputEmail.lastIndexOf("@") + 1);
+                            if(registeredDomains.indexOf(domain.toLowerCase()) == -1) {
+                                disabled = true;
+                            }
+                        } else {
+                            disabled = true;
+                        }
+                    } else {
+                        disabled = true;
+                    }
+                }
+                if (disabled) {
+                    $("#sendEmail").attr("disabled", true);
+                } else {
+                    $("#sendEmail").removeAttr("disabled");
+                }
+            }
+
+            $('#sendEmail').click(function(ev){
+                // Disabled send button once clicked.
+                $("#sendEmail").attr("disabled", true);
+                var params={};
+                params['site']= $('#permissionSite').val();
+                params['teacherEmail']= $('#teacherEmail').val();
+                params['reason']= $('#questionSelection').val();
+                params['otherReason']= $('#otherReasonInfo').val();
+                params['categories'] = "Safe search";
+                params['keyword'] = "proxy";
+                params['blockedReason'] = "Blocked by Safe Search";
+                params['policy'] = "Base%2FDefault+Policy";
+                params['requesterOU'] = "ishpemingschoolscomMiddleSchoolStudentsUsersClassof2030";
+                params['requesterSafeSecGroupName'] = "-";
+                params['requester'] = "ranlog30@ims.igmail.org";
+                params['fid'] = "securly@ishpemingschools.com";
+                params['i2n'] = "";
+                params['dateTime'] = "Tuesday, 05/13/25, 08:13AM EDT";
+                params['externalIp'] = "207.75.53.6";
+                params['ua'] = "CrOS";
+                params['filteringMethod'] = "Extension";
+                params['esPreference'] = "0";
+                params['url'] = "google.com"
+                if(params['categories']) {
+                    params['categories'] = params['categories'].replace(/inappropriate adult content/i, "Pornography");
+                }
+                if (showTWL) {
+                    sendEmail(params, 'teacher');
+                } else {
+                    sendEmail(params, 'admin');
+                }
+                ev.preventDefault();
+            });
+            //page redirection logic
+            const isRedirectToAnotherPage =  0;
+            if(isRedirectToAnotherPage == 1 ) {
+                if(document.getElementById('show-more')) {
+                    document.getElementById('show-more').click();
+                }
+                document.getElementById("overlay").style.display = "block";
+                const redirectUrl =  '';
+                const redirectTimeoutInMilisec =  0;
+                setTimeout(function() {
+                    location.href=redirectUrl;
+                }, redirectTimeoutInMilisec );
+            }
+        });
+
+
+        function sendEmail(obj, role){
+            $.post( "app/api/sendtwl",obj)
+                .done(function( data ) {
+                    if (role == 'teacher') {
+                        $("#sendEmail").attr("disabled", true);
+                        $("#teacherEmail").attr("readonly", true);
+                        $("#teacherEmail").attr("disabled", true);
+                        $("#mailStatus").text(data.message);
+                    } else {
+                        $("#sendEmailAdmin").attr("disabled", true);
+                        $("#mailStatus").text(data.message);
+                    }
+                    $("#mailFailure").hide();
+                    $("#mailSuccess").show();
+                })
+                .fail(function(error){
+                    resetFormDetails();
+                    $("#sendEmail").attr("disabled", false);
+                    $("#mailSuccess").hide();
+                    $("#mailFailure").show();
+                });
+        }
+
+        $('#sendPageScan').click(function(ev){
+            $("#sendPageScanRequstedSubmitted").show();
+            $("#sendPageScan").hide();
+            $("#pageScanInfo").show();
+            let params={};
+            params['domain']= $('#psSite').val();
+            params['requester'] = "ranlog30@ims.igmail.org";
+            $.get( "app/api/sendps",params)
+            .done(function( data ) {
+            })
+            .fail(function (err) {
+            });
+        });
+
+
+        function resetFormDetails(){
+            if (document.getElementById('contactAdminForm')) {
+                $("#contactAdminForm")[0].reset();
+            }
+        }
+
+        // keyboard-only focus
+        function handleFirstTab(e) {
+            if (e.keyCode === 9) { // "I am a keyboard user" key
+                $('body').addClass('user-is-tabbing');
+                $(window).off('keydown');
+                $(window).on('mousedown', handleMouseDownOnce);
+            }
+        }
+
+        function handleMouseDownOnce() {
+            $('body').removeClass('user-is-tabbing');
+            $(window).off('mousedown', handleMouseDownOnce);
+            $(window).on('keydown', handleFirstTab);
+        }
+
+        $(window).on('keydown', handleFirstTab);
+
+        function textAreaAdjust(element) {
+            element.style.height = "1px";
+            element.style.height = (25+element.scrollHeight)+"px";
+        }
+
+    </script>
+
+        
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    
+
+
+<iframe src="chrome-extension://bhmibpbadaengbikmoglphhlhioajdjn/html/camerapermiss.html" allow="camera" style="display: none;"></iframe><iframe src="chrome-extension://bhmibpbadaengbikmoglphhlhioajdjn/html/audiopermiss.html" allow="microphone" style="display: none;"></iframe><iframe src="chrome-extension://bhmibpbadaengbikmoglphhlhioajdjn/html/widget/slideHandle.html" style="display: none;"></iframe></body></html>
